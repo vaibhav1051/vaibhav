@@ -21,6 +21,6 @@ background color:#boc4de;
 <p>paragraph background color</p>
 still in div element
 </div>
-<p style ="color:red;margin left
-</body> 20px;":>hello world </p>
+<p style ="color:red;margin-left :20px;":>hello world 
+</p>
 </html>
