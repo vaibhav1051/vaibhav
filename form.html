@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Form Validation</title>
+<script>
+function.validateform(){
+var firstname = document myform fname value;
+var lastname = document myform lname value;
+var email=document.myform email value;
+if(firstname==null||firstname=="){
+alert("name can't be blank");
+return false;
+}else if (lastname.length<6){
+alert('last name must be atleast 6 character long");
+return false;
+}
+}
+</script>
+<body>
+<form name="myform" method="post"action="abc jsp" onsubmit="return validateform()">
+first name:<input type ="text" name="fame"></br>
+last name:<input type ="text" name="lname"></br>
+email address <input type="text" name="email"></br>
+branch<select name="branch">
+<option> cs
+<option> it
+</select>
+<input type="submit" value="register">
+</form>
+
